@@ -4,23 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OutfitDex  | 找尋穿搭靈感</title>
+    <link rel="stylesheet" href="/css/homepage.css">
 </head>
 <body>
     <header>
-        <div class="logo"></div>
+        <div class="logo">
+            <img src="imgs/LOGO.png" alt="LOGO">
+        </div>
         <div class="searchbar"></div>
-        <ul>
+        <ul id="nav-buttons">
             <li class="btn"></li>
             <li class="btn"></li>
             <li class="btn"></li>
         </ul>
     </header>
     <section id="gender">
-        <ul>
-            <li class="gender">ALL</li>
-            <li class="gender">WOMEN</li>
-            <li class="gender">MEN</li>
-        </ul>
+            <ul id="gender-buttons">
+                <li class="gender">ALL</li>
+                <li class="gender">WOMEN</li>
+                <li class="gender">MEN</li>
+            </ul>
     </section>
     <nav>
         <div class="category">
@@ -95,6 +98,7 @@
             </ul>
         </div>
         <div class="category">
+            <div class="sort">臉型</div>
             <ul>
                 <li class="option">不限</li>
                 <li class="option">您的臉型</li>
@@ -107,7 +111,7 @@
             </ul>
         </div>
         <div class="category">
-            <div class="sort"></div>
+            <div class="sort">身材</div>
             <ul>
                 <li class="title">身型</li>
                 <li class="option">不限</li>
@@ -127,7 +131,56 @@
         </div>
     </nav>
     <main>
-
+        <div class="info">
+            <info-intro>
+                <div class="title">熱門穿搭</div>
+                <div class="see_all">查看全部</div>
+            </info-intro>
+            <div class="cards">
+                <div class="card">1</div>
+                <div class="card">2</div>
+                <div class="card">3</div>
+            </div>
+        </div>
+        <div class="info">
+            <info-intro>
+                <div class="title">熱門使用者</div>
+                <div class="see_all">查看全部</div>
+            </info-intro>
+            <div class="cards">
+                <div class="card">1</div>
+                <div class="card">2</div>
+                <div class="card">3</div>
+            </div>
+        </div>
+        <div class="info">
+            <info-intro>
+                <div class="title">熱門標籤</div>
+                <div class="see_all">查看全部</div>
+            </info-intro>
+            <div class="cards">
+                <div class="card">1</div>
+                <div class="card">2</div>
+                <div class="card">3</div>
+            </div>
+        </div>
+        <div class="info">
+            <info-intro>
+                <div class="title">專屬推薦</div>
+                <div class="see_all">查看全部</div>
+            </info-intro>
+            <div class="cards">
+                <div class="card">1</div>
+                <div class="card">2</div>
+                <div class="card">3</div>
+                <div class="card">4</div>
+                <div class="card">5</div>
+                <div class="card">6</div>
+                <div class="card">7</div>
+                <div class="card">8</div>
+                <div class="card">9</div>
+            </div>
+        </div>
     </main>
 
 </body>

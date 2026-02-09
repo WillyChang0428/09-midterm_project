@@ -18,5 +18,7 @@ a{
 
 
 
-/* 手機 */
-@media screen and (max-wigth:48rem)
+/* 手機&平板 */
+@media screen and (max-width:48rem){
+
+}
