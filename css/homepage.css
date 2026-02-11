@@ -217,6 +217,7 @@ details ul{
     cursor: pointer;
     text-align: center;
     text-wrap: nowrap;
+    font-size: 14px;
 }
 
 .option:nth-child(1){
@@ -443,11 +444,11 @@ footer{
         width: 100%;
     }
     .cards{
-    flex-wrap: nowrap;
-    overflow: scroll;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1.25rem;
+        flex-wrap: nowrap;
+        overflow: scroll;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1.25rem;
     }
     footer{
         display: none;
