@@ -110,7 +110,8 @@ li.btn{
     font-size: 1.25rem;
 }
 .btn:active{
-    color: #616161;
+    color: #ffffff;
+    background-color: #666666;
 }
 .menu{
     display: none;
@@ -122,7 +123,6 @@ li.btn{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: #fafafa; */
 }
 #gender-buttons{
     width: 60rem;
@@ -132,13 +132,16 @@ li.btn{
     align-items: center;
     gap: 1.875rem;
 }
+#gender-buttons li:hover{
+    color: #ffffff;
+    background-color: #666666;
+}
 .gender{
     width: 25%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border-bottom: #777777 solid 0.125rem; */
     cursor: pointer;
 }
 .gender:nth-child(1){
@@ -180,6 +183,7 @@ summary {
     outline: none;
     padding: .625rem;
     font-size: 16px;
+    border-bottom: #c4c4c4 solid .0313rem;
 }
 
 details{
@@ -192,7 +196,7 @@ details{
 }
 
 details[open] .sort {
-    background-color: #ddd; 
+    font-weight: 900;
 }
 
 details[open] .sort i{
@@ -222,12 +226,14 @@ details ul{
 }
 
 .option:nth-child(1){
-    background-color: #a0a0a0;
-    color: white;
+    background-color: #666666;
+    color: #ffffff;
+    font-weight: 500;
 }
-.option:hover {
-    background-color: #b2b2b2;
+.option:hover{
+    background-color: #666666;
     color: white;
+    font-weight: 500;
 } 
 
 details .title{
