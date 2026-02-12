@@ -134,7 +134,7 @@ li.btn{
 }
 #gender-buttons li:hover{
     color: #ffffff;
-    background-color: #666666;
+    background-color: #777777;
 }
 .gender{
     width: 25%;
@@ -184,6 +184,7 @@ summary {
     padding: .625rem;
     font-size: 16px;
     border-bottom: #c4c4c4 solid .0313rem;
+    
 }
 
 details{
@@ -225,11 +226,11 @@ details ul{
     font-size: 14px;
 }
 
-.option:nth-child(1){
+#default{
     background-color: #666666;
     color: #ffffff;
-    font-weight: 500;
 }
+
 .option:hover{
     background-color: #666666;
     color: white;
