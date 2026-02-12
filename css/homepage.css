@@ -262,7 +262,10 @@ details .title i{
 }
 details .title i:hover + .tipbox{
     display:flex;
-    
+}
+
+.tipbox ul{
+    gap:10px;
 }
 
 /* 這裡是content */
